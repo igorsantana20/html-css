@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 26);
+    color: white;
+}
+
+
+.conteiner {
+    display: flex;
+    background-color: rgba(73, 73, 73, 0.452);
+    border: 0.1px rgba(255, 255, 255, 0.116) solid;
+
+    align-items: center;
+    align-self: center;
+    flex-flow: column;
+    height: 400px;
+    width: 300px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px black;
+
+}
+
+form {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    right: 130px;
+    text-shadow: 1px 1px 3px rgba(12, 0, 24, 0.801);
+}
+
+.email {
+    position: absolute;
+    display: block;
+    top: 70px;
+    font-size: 25px;
+}
+
+.senha {
+    position: absolute;
+    top: 10px;
+    top: 135px;
+    font-size: 25px;
+}
+
+.senha >::placeholder{
+    position: absolute;
+    left: 35%;
+    transform: translateY(4px);
+}
+
+#logar{
+    color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    bottom: 300px;
+}
+
+#logar:hover > a{
+    text-decoration: underline;
+    color: rgba(137, 43, 226, 0.541);
+}
+
+label > a {
+    text-decoration: none;
+}
+
+input{
+    background-color: rgba(73, 73, 73, 0.521);
+    border: none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.email > input{
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    border-radius: 7px; 
+    padding: 3px;
+}
+
+.senha > input{
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    border-radius: 7px; 
+    padding: 3px;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.521);
+    text-align: center;
+
+}
+.botao{
+    background-color: rgba(73, 73, 73, 0.521);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    transform: translateY(-100px)
+     
+}
+
+.botao:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: bolder;
+    border: 2px solid black;
+    transition: 0.30s;
+}
+
+#alterar{
+    position: absolute;
+    text-decoration: none;
+    color: rgba(137, 43, 226, 0.541);
+    font-size: 15px;
+    left: 190px;
+    transform: translateY(177px)
+}
+
+#alterar:hover{
+    color: rgba(137, 43, 226, 0.541);
+    text-decoration: underline;
+}
+
+
+
+.material-symbols-outlined{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.568);
+    left: 270px;
+    top: 5px;
+    
+}
+p{
+    position: absolute;
+    transform: translateY(177px);
+    color: rgba(146, 146, 146, 0.925);
+    font-size: 15px;
+}
