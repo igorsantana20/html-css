@@ -67,7 +67,6 @@ h1 {
 }
 
 #logar{
-    color: rgba(255, 255, 255, 0.582);
     position: absolute;
     text-decoration: none;
     font-size: 15px;
@@ -136,8 +135,8 @@ input::placeholder{
 
 #alterar{
     position: absolute;
-    text-decoration: none;
     color: rgba(137, 43, 226, 0.541);
+    text-decoration: none;
     font-size: 15px;
     left: 190px;
     transform: translateY(177px)
