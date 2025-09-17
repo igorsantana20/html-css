@@ -68,14 +68,15 @@ h1 {
 
 #logar{
     position: absolute;
-    text-decoration: none;
+    color: rgba(192, 192, 192, 0.521);
+    transform: translateY(340px);
+    left: 60px;
     font-size: 15px;
-    bottom: 300px;
 }
 
-#logar:hover > a{
+#logar > a:hover{
     text-decoration: underline;
-    color: rgba(137, 43, 226, 0.541);
+    color: rgba(137, 43, 226, 0.397);
 }
 
 label > a {
@@ -143,11 +144,10 @@ input::placeholder{
     transform: translateY(177px)
 }
 
-#alterar:hover{
-    color: rgba(137, 43, 226, 0.541);
+#alterar > a:hover{
     text-decoration: underline;
+    color: rgba(137, 43, 226, 0.397);
 }
-
 
 
 .material-symbols-outlined{
